@@ -33,5 +33,13 @@
             </nav>
         </div>
     </form>
+    <footer id="pie">
+        &copy <p>Siguenos en:</p>
+        <br />
+      <p>Faceook : <img  width="50" src="https://cdn1.iconfinder.com/data/icons/iconza-circle-social/64/697057-facebook-512.png"/> | Intagram: <img  width="50" src="https://images.vexels.com/media/users/3/137380/isolated/preview/1b2ca367caa7eff8b45c09ec09b44c16-instagram-icon-logo-by-vexels.png"/> | Youtube:<img  width="50" src="https://cdn3.iconfinder.com/data/icons/social-icons-5/607/YouTube_Play.png"/></p> 
+      
+
+
+    </footer>
 </body>
 </html>

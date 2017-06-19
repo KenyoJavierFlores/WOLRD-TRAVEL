@@ -13,30 +13,12 @@ namespace World_Travel {
     public partial class Default {
         
         /// <summary>
-        /// Control AdRotator1.
+        /// Control XmlDataSource1.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.AdRotator AdRotator1;
-        
-        /// <summary>
-        /// Control fondo.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.XmlDataSource fondo;
-        
-        /// <summary>
-        /// Control fondos.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.XmlDataSource fondos;
+        protected global::System.Web.UI.WebControls.XmlDataSource XmlDataSource1;
     }
 }
