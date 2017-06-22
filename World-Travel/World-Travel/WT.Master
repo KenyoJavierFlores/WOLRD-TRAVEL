@@ -4,42 +4,137 @@
 
 <html>
 <head runat="server">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title></title>
     <link href="EstilosWT.css" rel="stylesheet" />
 </head>
 <body>
-    <header>
+    <form id="form2" runat="server">
+
+        <header>
             <div id="log">
-                  <img src="http://wt.com.mx/images/logo-dark@2x.png" />
+                <img src="http://wt.com.mx/images/logo-dark@2x.png" />
             </div>
-                  
+
             <div class="field" id="searchform">
-              <input type="text" id="searchterm" placeholder="Ingresa tu destino" />
-              <button type="button" id="search">Buscar!</button>
+                <input type="text" id="searchterm" placeholder="Ingresa tu destino" />
+                <button type="button" id="search">Buscar!</button>
+
+
             </div>
-        
-            
-                <script class="cssdeck" src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
-        <div class="limitar"></div>
+
+
+            <script class="cssdeck" src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+            <div class="limitar">
+                <ul class="menu cf">
+                    <li><a href="#">Home</a></li>
+                    <li>
+                        <a href="#">Departamentos</a>
+                        <ul class="submenu">
+                            <li><a href="#">Amazonas</a></li>
+                            <li><a href="#">Ancash</a></li>
+                            <li><a href="#">Apurimac</a></li>
+                            <li><a href="#">Arequipa</a></li>
+                            <li><a href="#">Ayacucho</a></li>
+                            <li><a href="#">Cajamarca</a></li>
+                            <li><a href="#">Callao</a></li>
+                            <li><a href="#">Cusco</a></li>
+                            <li><a href="#">Huancavelica</a></li>
+                            <li><a href="#">Huanuco</a></li>
+                            <li><a href="#">Ica</a></li>
+                            <li><a href="#">Junin</a></li>
+                            <li><a href="#">La Libertad</a></li>
+                            <li><a href="#">Lambayeque</a></li>
+                            <li><a href="#">Lima</a></li>
+                            <li><a href="#">Loreto</a></li>
+                            <li><a href="#">Madre De Dios</a></li>
+                            <li><a href="#">Moquegua</a></li>
+                            <li><a href="#">Pasco</a></li>
+                            <li><a href="#">Piura</a></li>
+                            <li><a href="#">Puno</a></li>
+                            <li><a href="#">San Martin</a></li>
+                            <li><a href="#">Tacna</a></li>
+                            <li><a href="#">Tumbes</a></li>
+                            <li><a href="#">Ucayali</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Ciudades</a>
+                        <ul class="submenu">
+                            <li><a href="#">CSS3</a></li>
+                            <li><a href="#">HTML5</a></li>
+                            <li><a href="#">PHP</a></li>
+                            <li><a href="#">JavaScript</a></li>
+                        </ul>
+
+                    </li>
+                    <li>
+                        <a href="#">Culturas</a>
+                        <ul class="submenu">
+                            <li><a href="#">CSS3</a></li>
+                            <li><a href="#">HTML5</a></li>
+                            <li><a href="#">PHP</a></li>
+                            <li><a href="#">JavaScript</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Deporte</a>
+                        <ul class="submenu">
+                            <li><a href="#">CSS3</a></li>
+                            <li><a href="#">HTML5</a></li>
+                            <li><a href="#">PHP</a></li>
+                            <li><a href="#">JavaScript</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Adrenalina</a>
+                        <ul class="submenu">
+                            <li><a href="#">CSS3</a></li>
+                            <li><a href="#">HTML5</a></li>
+                            <li><a href="#">PHP</a></li>
+                            <li><a href="#">JavaScript</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Turismo</a>
+                        <ul class="submenu">
+                            <li><a href="#">CSS3</a></li>
+                            <li><a href="#">HTML5</a></li>
+                            <li><a href="#">PHP</a></li>
+                            <li><a href="#">JavaScript</a></li>
+
+
+                        </ul>
+                    </li>
+                </ul>
+            </div>
         </header>
-    <form id="form1" runat="server">
-        
+
+
         <div>
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
             <nav>
-            <asp:AdRotator ID="AdRotator1" runat="server" AdvertisementFile="~/Fondo.xml"/>
+                <asp:AdRotator ID="AdRotator1" runat="server" AdvertisementFile="~/Fondo.xml" />
             </nav>
         </div>
+
+        <footer id="pie">
+            &copy
+            <p>Siguenos en:</p>
+            <br />
+            <p>
+                Faceook :
+                <img width="50" src="https://cdn1.iconfinder.com/data/icons/iconza-circle-social/64/697057-facebook-512.png" />
+                | Intagram:
+                <img width="50" src="https://images.vexels.com/media/users/3/137380/isolated/preview/1b2ca367caa7eff8b45c09ec09b44c16-instagram-icon-logo-by-vexels.png" />
+                | Youtube:<img width="50" src="https://cdn3.iconfinder.com/data/icons/social-icons-5/607/YouTube_Play.png" />
+            </p>
+
+
+
+        </footer>
+
     </form>
-    <footer id="pie">
-        &copy <p>Siguenos en:</p>
-        <br />
-      <p>Faceook : <img  width="50" src="https://cdn1.iconfinder.com/data/icons/iconza-circle-social/64/697057-facebook-512.png"/> | Intagram: <img  width="50" src="https://images.vexels.com/media/users/3/137380/isolated/preview/1b2ca367caa7eff8b45c09ec09b44c16-instagram-icon-logo-by-vexels.png"/> | Youtube:<img  width="50" src="https://cdn3.iconfinder.com/data/icons/social-icons-5/607/YouTube_Play.png"/></p> 
-      
-
-
-    </footer>
 </body>
 </html>
