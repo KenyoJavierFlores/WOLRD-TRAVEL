@@ -73,7 +73,7 @@ div#log {
     background-color: rgb(9, 85, 70);
     text-align: center;
     padding-bottom: 20px;
-    margin-top:3%;
+    margin-top: 3%;
 }
 
 nav {
@@ -189,32 +189,38 @@ fieldset#body {
     border: 0;
     *margin: -3px 9px 0 0; /* IE7 Fix */
 }
-.fondo-img{
-    display:none;
+
+.fondo-img {
+    display: none;
 }
+
 #ImgFondo {
     height: 600px;
     border: 1px solid red;
-} 
-#ImgFondo img {
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    z-index: -1;
-    width: 100%;
+    display: block;
 }
 
-#ImgFondo h1 {
-    font-size: 55pt;
-    text-align: center;
-    color: #ffffff;
-    padding-top:25px;
-}
-#ImgFondo h3 {
-    font-size: 24pt;
-    text-align: center;
-    color:#ffffff;
-}
+    #ImgFondo img {
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        z-index: -1;
+        width: 100%;
+        
+    }
+
+    #ImgFondo h1 {
+        font-size: 55pt;
+        text-align: center;
+        color: #ffffff;
+        padding-top: 25px;
+    }
+
+    #ImgFondo h3 {
+        font-size: 24pt;
+        text-align: center;
+        color: #ffffff;
+    }
 
 /* css carusel*/
 .carousel-inner .active.left {
@@ -243,4 +249,84 @@ fieldset#body {
 
 .carousel-inner .item {
     background: white;
+}
+
+/*------------menu de los eventos----------------*/
+
+#header {
+    width: 1000px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+
+.nav li a {
+    background-color: rgb(14, 152, 125);
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+
+    .nav li a:hover {
+        background-color: green;
+    }
+
+.nav > li {
+    float: left;
+}
+
+.nav li ul {
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+
+.nav li:hover > ul {
+    display: block;
+}
+
+.nav li ul li {
+    position: relative;
+}
+
+    .nav li ul li ul {
+        right: -140px;
+        top: 0px;
+    }
+
+
+/*----------------Eventos -------------------*/
+
+.evento {
+    padding:0 20%;
+    margin: auto;
+    border:1px solid red;
+    display:block;
+    background-color:forestgreen;
+    color:black;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:30px;
+    
+}
+
+.evento section img{
+    height:250px;
+    width:300px;
+
+}
+
+.Lugares {
+    padding: 0 20%;
+    margin: auto;
+    border: 1px solid red;
+    display: block;
+    background-color: forestgreen;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
 }
